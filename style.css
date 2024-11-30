@@ -19,6 +19,8 @@ body {
 }
 
 header {
+   position: sticky;
+   top: 0;
    background: #4CAF50;
    color: white;
    padding: 1em 0;
@@ -121,4 +123,10 @@ footer a:hover {
    margin: 20px;
    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
    padding: 25px;
+   border-radius: 18px;
 }
+
+.heroIntro {
+   margin: 35px;
+}
+
